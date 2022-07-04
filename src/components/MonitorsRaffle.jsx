@@ -11,16 +11,16 @@ const MonitorsRaffle = () => (
 		<div className={style.share}>Compartir</div>
 		<div className={style.socials}>
 			<div className={style.socialicon}>
-				<img src='twitter.png' alt='twitter image' />
+				<img src='./twitter.png' alt='twitter image' />
 			</div>
 			<div className={style.socialicon}>
-				<img src='facebook.png' alt='facebook image' />
+				<img src='./facebook.png' alt='facebook image' />
 			</div>
 			<div className={style.socialicon}>
-				<img src='whatsapp.png' alt='whatsapp image' />
+				<img src='./whatsapp.png' alt='whatsapp image' />
 			</div>
 			<div className={style.socialicon}>
-				<img src='telegram.png' alt='telegram image' />
+				<img src='./telegram.png' alt='telegram image' />
 			</div>
 		</div>
 		<div className={style.ruffletitle}>
@@ -33,7 +33,7 @@ const MonitorsRaffle = () => (
 		</div>
 		<div className={style.monitorsimagewrapper}>
 			<img
-				src='monitors_raffle.webp'
+				src='./monitors_raffle.webp'
 				alt='image of two monitors'
 				className={style.monitorsimage}
 			/>

@@ -4,7 +4,7 @@ const CategoryList = () => (
 	<div className={style.wrapper}>
 		<div className={style.subwrapper}>
 			<div>
-				<img className={style.image} alt='Portátiles' src='category1.png' />
+				<img className={style.image} alt='Portátiles' src='./category1.png' />
 			</div>
 			<div className={style.textwrapper}>
 				<b>Portátiles</b>
@@ -12,7 +12,11 @@ const CategoryList = () => (
 		</div>
 		<div className={style.subwrapper}>
 			<div>
-				<img className={style.image} alt='Sobremesa' src='category2.png'></img>
+				<img
+					className={style.image}
+					alt='Sobremesa'
+					src='./category2.png'
+				></img>
 			</div>
 			<div className={style.textwrapper}>
 				<b>Sobremesa</b>
@@ -20,7 +24,11 @@ const CategoryList = () => (
 		</div>
 		<div className={style.subwrapper}>
 			<div>
-				<img className={style.image} alt='Monitores' src='category3.png'></img>
+				<img
+					className={style.image}
+					alt='Monitores'
+					src='./category3.png'
+				></img>
 			</div>
 			<div className={style.textwrapper}>
 				<b>Monitores</b>
@@ -28,7 +36,7 @@ const CategoryList = () => (
 		</div>
 		<div className={style.subwrapper}>
 			<div>
-				<img className={style.image} alt='Móviles' src='category4.png'></img>
+				<img className={style.image} alt='Móviles' src='./category4.png'></img>
 			</div>
 			<div className={style.textwrapper}>
 				<b>Smartphones</b>
@@ -36,7 +44,7 @@ const CategoryList = () => (
 		</div>
 		<div className={style.subwrapper}>
 			<div>
-				<img className={style.image} alt='Televisores' src='category5.png' />
+				<img className={style.image} alt='Televisores' src='./category5.png' />
 			</div>
 			<div className={style.textwrapper}>
 				<b>Televisores</b>
@@ -47,7 +55,7 @@ const CategoryList = () => (
 				<img
 					className={style.image}
 					alt='Tarjetas Gráficas'
-					src='category6.png'
+					src='./category6.png'
 				/>
 			</div>
 			<div className={style.textwrapper}>

@@ -4,7 +4,7 @@ const ProductList = () => (
 	<div className={style.wrapper}>
 		<div className={style.itemwrapper}>
 			<div className={style.itemimagewrapper}>
-				<img className={style.image} alt='laptop image' src='laptop1.jpg' />
+				<img className={style.image} alt='laptop image' src='./laptop1.jpg' />
 				<span className={style.promotion}>PROMOCIÓN</span>
 			</div>
 			<div className={style.itemnamewrapper}>
@@ -20,7 +20,7 @@ const ProductList = () => (
 		</div>
 		<div className={style.itemwrapper}>
 			<div className={style.itemimagewrapper}>
-				<img className={style.image} alt='laptop image' src='laptop2.jpg' />
+				<img className={style.image} alt='laptop image' src='./laptop2.jpg' />
 				<span className={style.promotion}>PROMOCIÓN</span>
 			</div>
 			<div className={style.itemnamewrapper}>
@@ -36,7 +36,7 @@ const ProductList = () => (
 		</div>
 		<div className={style.itemwrapper}>
 			<div className={style.itemimagewrapper}>
-				<img className={style.image} alt='laptop image' src='laptop3.jpg' />
+				<img className={style.image} alt='laptop image' src='./laptop3.jpg' />
 				<span className={style.promotion}>PROMOCIÓN</span>
 			</div>
 			<div className={style.itemnamewrapper}>
@@ -53,7 +53,7 @@ const ProductList = () => (
 
 		<div className={style.itemwrapper}>
 			<div className={style.itemimagewrapper}>
-				<img className={style.image} alt='laptop image' src='laptop4.jpg' />
+				<img className={style.image} alt='laptop image' src='./laptop4.jpg' />
 				<span className={style.promotion}>PROMOCIÓN</span>
 			</div>
 			<div className={style.itemnamewrapper}>
@@ -69,7 +69,7 @@ const ProductList = () => (
 		</div>
 		<div className={style.itemwrapper}>
 			<div className={style.itemimagewrapper}>
-				<img className={style.image} alt='laptop image' src='laptop5.jpg' />
+				<img className={style.image} alt='laptop image' src='./laptop5.jpg' />
 				<span className={style.promotion}>PROMOCIÓN</span>
 			</div>
 			<div className={style.itemnamewrapper}>
@@ -85,7 +85,7 @@ const ProductList = () => (
 		</div>
 		<div className={style.itemwrapper}>
 			<div className={style.itemimagewrapper}>
-				<img className={style.image} alt='laptop image' src='laptop6.jpg' />
+				<img className={style.image} alt='laptop image' src='./laptop6.jpg' />
 				<span className={style.promotion}>PROMOCIÓN</span>
 			</div>
 			<div className={style.itemnamewrapper}>
@@ -101,7 +101,7 @@ const ProductList = () => (
 		</div>
 		<div className={style.itemwrapper}>
 			<div className={style.itemimagewrapper}>
-				<img className={style.image} alt='laptop image' src='laptop7.jpg' />
+				<img className={style.image} alt='laptop image' src='./laptop7.jpg' />
 				<span className={style.promotion}>PROMOCIÓN</span>
 			</div>
 			<div className={style.itemnamewrapper}>
@@ -118,7 +118,7 @@ const ProductList = () => (
 
 		<div className={style.itemwrapper}>
 			<div className={style.itemimagewrapper}>
-				<img className={style.image} alt='laptop image' src='laptop8.jpg' />
+				<img className={style.image} alt='laptop image' src='./laptop8.jpg' />
 				<span className={style.promotion}>PROMOCIÓN</span>
 			</div>
 			<div className={style.itemnamewrapper}>

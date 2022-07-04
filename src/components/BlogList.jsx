@@ -6,7 +6,7 @@ const BlogList = () => (
 			<div className={style.imagewrapper}>
 				<img
 					className={style.image}
-					src='blog1.png'
+					src='./blog1.png'
 					alt='persona escribiendo en un portátil'
 				/>
 			</div>
@@ -26,7 +26,7 @@ const BlogList = () => (
 			<div className={style.imagewrapper}>
 				<img
 					className={style.image}
-					src='blog2.png'
+					src='./blog2.png'
 					alt='persona tomando cafe y sonriendo enfrente de un portatil'
 				/>
 			</div>
@@ -47,7 +47,7 @@ const BlogList = () => (
 			<div className={style.imagewrapper}>
 				<img
 					className={style.image}
-					src='blog3.png'
+					src='./blog3.png'
 					alt='edificio con logo de apple'
 				/>
 			</div>
