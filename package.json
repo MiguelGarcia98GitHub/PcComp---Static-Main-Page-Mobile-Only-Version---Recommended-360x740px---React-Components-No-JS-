@@ -1,13 +1,16 @@
 {
+	"homepage": "https://MiguelGarcia98GitHub.github.io/MiguelGarcia98GitHub/PcComp---Static-Main-Page-Mobile-Only-Version---Recommended-360x740px---React-Components-No-JS-",
 	"name": "vite-project",
 	"private": true,
 	"version": "0.0.0",
 	"scripts": {
 		"dev": "vite",
-		"build": "vite build && type NUL > docs/.nojekyll",
+		"build": "vite build",
 		"preview": "vite preview",
 		"format": "prettier --write .",
-		"lint": "eslint --fix . --ext .js,.jsx"
+		"lint": "eslint --fix . --ext .js,.jsx",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"dependencies": {
 		"react": "^18.0.0",
@@ -25,6 +28,7 @@
 		"eslint-plugin-promise": "^6.0.0",
 		"eslint-plugin-react": "^7.30.0",
 		"eslint-plugin-react-hooks": "^4.6.0",
+		"gh-pages": "^4.0.0",
 		"prettier": "^2.6.2",
 		"sass": "^1.52.3",
 		"vite": "^2.9.9"
