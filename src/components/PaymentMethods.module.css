@@ -1,7 +1,10 @@
 .wrapper {
 	width: 100%;
 	height: 5rem;
-	margin: 0.5rem;
+}
+
+.subwrapper {
+	margin-left: 0.5rem;
 }
 
 .underline {

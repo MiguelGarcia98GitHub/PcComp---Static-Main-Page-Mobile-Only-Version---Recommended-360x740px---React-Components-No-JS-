@@ -5,7 +5,7 @@ import style from './PaymentMethods.module.css';
 
 const PaymentMethods = () => (
 	<div className={style.wrapper}>
-		<div>
+		<div className={style.subwrapper}>
 			<MaestroIcon />
 			<MasterCardIcon />
 			<VisaIcon />

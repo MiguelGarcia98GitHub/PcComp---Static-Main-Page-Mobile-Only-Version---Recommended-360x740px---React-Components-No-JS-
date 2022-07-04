@@ -1,7 +1,10 @@
 .wrapper {
 	width: 100%;
-	margin-left: 1rem;
 	margin-bottom: 0.5rem;
+}
+
+.subwrapper {
+	margin-left: 1rem;
 }
 
 .title {
