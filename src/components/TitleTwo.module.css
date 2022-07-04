@@ -1,0 +1,19 @@
+.wrapper {
+	height: 9rem;
+	background-color: whitesmoke;
+	padding-top: 3rem;
+}
+
+.subwrapper {
+	font-size: 1.5rem;
+	letter-spacing: -1px;
+	margin-left: 1rem;
+}
+
+.orangebar {
+	background-color: orange;
+	height: 0.25rem;
+	width: 10%;
+	margin-top: 1rem;
+	margin-left: 1rem;
+}

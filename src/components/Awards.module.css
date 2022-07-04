@@ -1,0 +1,20 @@
+.wrapper {
+	height: 4rem;
+	width: 100%;
+}
+
+.subwrapper {
+	display: flex;
+}
+
+.awardonecontainer {
+	margin: 1rem;
+}
+
+.awardtwocontainer {
+	margin: 0.75rem;
+}
+
+.image {
+	width: 5.5rem;
+}

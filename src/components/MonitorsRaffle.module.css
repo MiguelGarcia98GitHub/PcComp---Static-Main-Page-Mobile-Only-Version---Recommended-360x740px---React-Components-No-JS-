@@ -1,0 +1,150 @@
+.wrapper {
+	width: 100%;
+	height: 70rem;
+	background-color: #1c2c40;
+	padding: 2rem;
+	justify-content: center;
+}
+
+.titletext {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: white;
+}
+
+.textwrapper {
+	margin-top: 1rem;
+	color: white;
+}
+
+.share {
+	margin-top: 2rem;
+	font-weight: 600;
+	color: white;
+}
+
+.socials {
+	display: flex;
+}
+
+.socialicon {
+	margin-left: 1rem;
+	margin-top: 0.5rem;
+}
+
+.ruffletitle {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	align-items: center;
+}
+
+.ruffletitletext {
+	margin-top: 3rem;
+	font-size: 2.25rem;
+	font-weight: 600;
+	z-index: 11;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.ruffletitleunderline {
+	width: 14.5rem;
+	height: 1.5rem;
+	background-color: orangered;
+	margin-top: -1.25rem;
+	z-index: 10;
+	transform: skew(-20deg);
+}
+
+.rufflevaluedinwrapper {
+	background-color: orangered;
+	transform: skew(-20deg);
+	width: 8rem;
+	text-align: center;
+	font-size: 0.75rem;
+	margin: 0 auto;
+	margin-top: 1rem;
+	color: white;
+}
+
+.rufflevalue {
+	font-size: 1.5rem;
+	font-weight: 600;
+	transform: skew(20deg);
+}
+
+.monitorsimagewrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.monitorsimage {
+	width: 20rem;
+	margin-top: 1rem;
+}
+
+.formboxwrapper {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 3rem;
+}
+
+.formbox {
+	width: 20rem;
+	height: 20rem;
+	background-color: aliceblue;
+	padding: 1rem;
+}
+
+.formboxtitle {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.formboxsubtitle {
+	font-size: 0.75rem;
+	font-weight: 400;
+	margin-top: 0.75rem;
+}
+
+.inputemailwrapper {
+	margin-top: 1rem;
+}
+
+.inputemail {
+	width: 15rem;
+	height: 2.25rem;
+	padding: 1rem;
+	background-color: aliceblue;
+	outline: none;
+	border: 1px solid grey;
+}
+
+.maintext {
+	padding: 1rem;
+	font-size: 0.75rem;
+	line-height: 1.25rem;
+	margin-right: 0.5rem;
+}
+
+.checkbox {
+	margin-right: 0.25rem;
+	accent-color: orange;
+}
+
+.orangetext {
+	color: orangered;
+}
+
+.joinbutton {
+	height: 2.5rem;
+	width: 18rem;
+	background-color: orangered;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 0.5rem;
+	color: white;
+	font-size: 1.25rem;
+}

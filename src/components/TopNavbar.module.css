@@ -1,0 +1,27 @@
+.wrapper {
+	width: 100%;
+	height: 3rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.subwrapperleft {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.burguerwrapper {
+	margin-top: 0.5rem;
+	margin-left: 1rem;
+}
+
+.logowrapper {
+	margin-right: 1.5rem;
+}
+
+.subwrapperright {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin-top: 0.5rem;
+	margin-left: 1rem;
+}

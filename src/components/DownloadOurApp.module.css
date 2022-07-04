@@ -1,0 +1,25 @@
+.wrapper {
+	width: 100%;
+	height: 10rem;
+}
+
+.subwrapper {
+	display: flex;
+	margin: 1rem;
+}
+
+.title {
+	font-size: 1.25rem;
+	font-weight: 600;
+	margin-left: 1rem;
+}
+
+.image {
+	width: 2rem;
+}
+
+.text {
+	display: flex;
+	align-items: center;
+	margin-left: 0.5rem;
+}

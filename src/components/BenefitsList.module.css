@@ -1,0 +1,24 @@
+.wrapper {
+	height: 25rem;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	align-items: center;
+}
+
+.subwrapper {
+	width: 16rem;
+	height: 5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	border-bottom: 1px solid grey;
+}
+
+.textwrapper {
+	text-align: center;
+	margin-left: 1rem;
+}
